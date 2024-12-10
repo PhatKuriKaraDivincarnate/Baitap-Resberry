@@ -3,16 +3,19 @@ from sense_emu import SenseHat
 import time
 
  //Khởi tạo SenseHat
+ 
 sense = SenseHat()
 
 // Màu sắc cho LED matrix
-text_colour = (255, 255, 0)  # Màu vàng
-bg_color = (0, 0, 0)         # Nền đen
+
+text_colour = (255, 255, 0)  // Màu vàng
+bg_color = (0, 0, 0)         // Nền đen
 
 Biến joystick
 x = y = 4
 
 //Hàm giới hạn giá trị trong phạm vi (0, 7)
+
 def clamp(value, min_value=0, max_value=7):
     return min(max_value, max(min_value, value))
 
