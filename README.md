@@ -59,6 +59,7 @@ while True:
     
     time.sleep(1)
 
-    ![image](https://github.com/user-attachments/assets/e40bf016-bc02-4e4c-bdb7-cbcf8cdf6bbf)
+  ![image](https://github.com/user-attachments/assets/ed06483d-92aa-45ab-8cb7-d7f548784088)
+
 
 
